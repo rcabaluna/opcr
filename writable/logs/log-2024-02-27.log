@@ -1,0 +1,36 @@
+CRITICAL - 2024-02-27 07:31:46 --> TypeError: App\Controllers\Login::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 07:31:58 --> TypeError: App\Controllers\Login::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 07:32:10 --> ErrorException: A function with return type must return a value
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-27 07:55:29 --> ErrorException: Undefined property: App\Controllers\Auth::$auth_model
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$auth_model', 'C:\\xampp\\htdocs\\opcr\\app\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->auth_registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 07:57:14 --> ErrorException: Undefined property: App\Controllers\Auth::$auth_model
+in APPPATH\Controllers\Auth.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$auth_model', 'C:\\xampp\\htdocs\\opcr\\app\\Controllers\\Auth.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->auth_registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:05:48 --> ValueError: password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+in APPPATH\Controllers\Auth.php on line 26.
+ 1 APPPATH\Controllers\Auth.php(26): password_hash('2y', '123')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->auth_registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
