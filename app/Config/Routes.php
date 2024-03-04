@@ -10,3 +10,5 @@ $routes->get('/registration-form', 'Auth::registration');
 $routes->post('/auth-register', 'Auth::auth_registration');
 
 
+
+

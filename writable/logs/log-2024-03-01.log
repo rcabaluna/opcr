@@ -1,0 +1,38 @@
+CRITICAL - 2024-03-01 07:41:39 --> ParseError: syntax error, unexpected token "-", expecting "("
+in APPPATH\Controllers\Auth.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\opcr\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 07:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 07:54:17 --> ErrorException: Undefined property: App\Controllers\Auth::$session
+in APPPATH\Controllers\Auth.php on line 36.
+ 1 APPPATH\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$session', 'C:\\xampp\\htdocs\\opcr\\app\\Controllers\\Auth.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->auth_registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 07:54:44 --> ErrorException: Undefined property: App\Controllers\Auth::$session
+in APPPATH\Controllers\Auth.php on line 36.
+ 1 APPPATH\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$session', 'C:\\xampp\\htdocs\\opcr\\app\\Controllers\\Auth.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->auth_registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 07:54:53 --> ErrorException: Undefined property: App\Controllers\Auth::$session
+in APPPATH\Controllers\Auth.php on line 36.
+ 1 APPPATH\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$session', 'C:\\xampp\\htdocs\\opcr\\app\\Controllers\\Auth.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->auth_registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 07:55:02 --> ErrorException: Undefined property: App\Controllers\Auth::$session
+in APPPATH\Controllers\Auth.php on line 36.
+ 1 APPPATH\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$session', 'C:\\xampp\\htdocs\\opcr\\app\\Controllers\\Auth.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->auth_registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

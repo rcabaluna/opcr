@@ -27,6 +27,6 @@ class Auth extends BaseController
 
         $insert = $this->authModel->insert_data($data);
 
-        echo "Registration success";
+        echo "Registration success!";
     }
 }
